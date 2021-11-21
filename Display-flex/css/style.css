@@ -1,0 +1,60 @@
+section {
+  border: 3px solid turquoise;
+  /* height:200px; */
+
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+
+  /* Quebra de linha */
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+
+  /* Alinhamento horizontal */
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+
+  /* Alinhamento vertical */
+  align-items: flex-start;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+
+  /* Direção dos elementos: row/column | reverse */
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+}
+
+div {
+  border: 1px solid rgb(0, 0, 0);
+  /* flex: 1; */
+  height: 50px;
+}
+
+#d1 {
+  order: 1;
+  flex: 1 0 auto;
+  
+}
+#d2 {
+  order: 2;
+  width: 100px;
+}
+#d3 {
+  order: 3;
+  width: 100px;
+}
+#d4 {
+  order: 4;
+  width: 100px;
+}
+#d5 {
+  order: 5;
+  width: 100px;
+}
+#d6 {
+  order: 6;
+  width: 100px;
+}

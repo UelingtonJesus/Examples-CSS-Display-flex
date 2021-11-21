@@ -1,0 +1,35 @@
+div{
+  border: 1px solid #000000;
+  background-color: tomato;
+  width: 200px;
+  height: 200px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ol,ul,li{
+  border: 1px solid #000000;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+ol{
+  margin-top: 20px;
+  display: table;
+  width: 300px;
+}
+
+ul{
+  display: table-row;
+}
+
+li{
+  display: table-cell;
+  text-align: center;
+}
+
+.titulo{
+  background-color: turquoise;
+}
